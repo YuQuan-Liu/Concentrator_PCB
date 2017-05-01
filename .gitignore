@@ -3,3 +3,5 @@ History/*
 *.PrjPCBStructure
 *.pcblib_viewstate
 *.htm
+ProjectOutputs/*
+*.pcbdoc_viewstate
