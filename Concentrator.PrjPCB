@@ -187,6 +187,9 @@ DocumentPath=ProjectOutputs\Design Rule Check - Concentrator.html
 DocumentPath=ProjectOutputs\Design Rule Check - SIM800.html
 
 [GeneratedDocument4]
+DocumentPath=FMU3_REV_D.PcbLib.htm
+
+[GeneratedDocument5]
 DocumentPath=PCB_SDCard.PcbLib.htm
 
 [OutputGroup1]
@@ -449,14 +452,16 @@ Name=Report Outputs
 Description=
 TargetPrinter=ET0021B704E0E9
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
-OutputType1=BOM_PartType
-OutputName1=Bill of Materials
+OutputType1=SimpleBOM
+OutputName1=Simple BOM
 OutputDocumentPath1=
 OutputVariantName1=
 OutputEnabled1=1
 OutputDefault1=0
-OutputType2=ComponentCrossReference
-OutputName2=Component Cross Reference Report
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=Record=SimpleBOMView|SimpleBOMMode=0
+OutputType2=SinglePinNetReporter
+OutputName2=Report Single Pin Nets
 OutputDocumentPath2=
 OutputVariantName2=
 OutputEnabled2=1
@@ -467,14 +472,24 @@ OutputDocumentPath3=
 OutputVariantName3=
 OutputEnabled3=1
 OutputDefault3=0
-OutputType4=SimpleBOM
-OutputName4=Simple BOM
+OutputType4=BOM_PartType
+OutputName4=Bill of Materials
 OutputDocumentPath4=
 OutputVariantName4=
 OutputEnabled4=1
 OutputDefault4=0
-OutputType5=SinglePinNetReporter
-OutputName5=Report Single Pin Nets
+Configuration4_Name1=Filter
+Configuration4_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration4_Name2=General
+Configuration4_Item2=OpenExported=False|AddToProject=False|ForceFit=True|Database=False|IncludePCBData=False|ShowExportOptions=True|TemplateFilename=BOM Purchase.XLT|BatchMode=5|FormWidth=912|FormHeight=645
+Configuration4_Name3=GroupOrder
+Configuration4_Item3=Value=True|Comment=True|Footprint=True
+Configuration4_Name4=SortOrder
+Configuration4_Item4=Designator=Up|Comment=Up|Footprint=Up
+Configuration4_Name5=VisibleOrder
+Configuration4_Item5=Comment=100|Description=100|Designator=100|Footprint=100|LibRef=100|Quantity=100|Value=100
+OutputType5=ComponentCrossReference
+OutputName5=Component Cross Reference Report
 OutputDocumentPath5=
 OutputVariantName5=
 OutputEnabled5=1
