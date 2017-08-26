@@ -223,15 +223,18 @@ ClassGenNCAutoScope=None
 DocumentPath=Common.PcbLib.htm
 
 [GeneratedDocument2]
-DocumentPath=ProjectOutputs\Design Rule Check - Concentrator.html
+DocumentPath=ProjectOutputs\Design Rule Check - Concentrator1.html
 
 [GeneratedDocument3]
-DocumentPath=ProjectOutputs\Design Rule Check - SIM800.html
+DocumentPath=ProjectOutputs\Design Rule Check - Concentrator.html
 
 [GeneratedDocument4]
-DocumentPath=FMU3_REV_D.PcbLib.htm
+DocumentPath=ProjectOutputs\Design Rule Check - SIM800.html
 
 [GeneratedDocument5]
+DocumentPath=FMU3_REV_D.PcbLib.htm
+
+[GeneratedDocument6]
 DocumentPath=PCB_SDCard.PcbLib.htm
 
 [Generic_SmartPDF]
