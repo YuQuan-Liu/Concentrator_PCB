@@ -25,7 +25,7 @@ PushECOToAnnotationFile=1
 
 [Document1]
 DocumentPath=Concentrator.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -179,7 +179,7 @@ ClassGenNCAutoScope=None
 
 [Document12]
 DocumentPath=JunPuMBUS.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -229,12 +229,15 @@ DocumentPath=ProjectOutputs\Design Rule Check - Concentrator1.html
 DocumentPath=ProjectOutputs\Design Rule Check - Concentrator.html
 
 [GeneratedDocument4]
-DocumentPath=ProjectOutputs\Design Rule Check - SIM800.html
+DocumentPath=ProjectOutputs\Design Rule Check - MBUS_Slave.html
 
 [GeneratedDocument5]
-DocumentPath=FMU3_REV_D.PcbLib.htm
+DocumentPath=ProjectOutputs\Design Rule Check - SIM800.html
 
 [GeneratedDocument6]
+DocumentPath=FMU3_REV_D.PcbLib.htm
+
+[GeneratedDocument7]
 DocumentPath=PCB_SDCard.PcbLib.htm
 
 [Generic_SmartPDF]
