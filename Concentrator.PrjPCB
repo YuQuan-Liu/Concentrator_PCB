@@ -25,7 +25,7 @@ PushECOToAnnotationFile=1
 
 [Document1]
 DocumentPath=Concentrator.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -179,7 +179,7 @@ ClassGenNCAutoScope=None
 
 [Document12]
 DocumentPath=JunPuMBUS.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
