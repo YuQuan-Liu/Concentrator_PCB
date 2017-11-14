@@ -52,34 +52,6 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
 [Document3]
-DocumentPath=..\..\Program Files (x86)\Altium Designer 6\Library\ST Microelectronics\ST Microcontroller 32-Bit STM32\ST Microcontroller 32-Bit STM32.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-
-[Document4]
-DocumentPath=..\..\Program Files (x86)\Altium Designer 6\Library\ST Microelectronics\ST Microcontroller 32-Bit STM32\ST Microcontroller 32-Bit STM32.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-
-[Document5]
 DocumentPath=FMU3_REV_D.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -93,7 +65,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
-[Document6]
+[Document4]
 DocumentPath=FMU3_REV_D.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -107,7 +79,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
-[Document7]
+[Document5]
 DocumentPath=PCB_SDCard.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -121,7 +93,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
-[Document8]
+[Document6]
 DocumentPath=SCH_SDCard.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -135,7 +107,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
-[Document9]
+[Document7]
 DocumentPath=Concentrator.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -149,7 +121,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
-[Document10]
+[Document8]
 DocumentPath=SIM800.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -163,7 +135,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
-[Document11]
+[Document9]
 DocumentPath=JunPuMBUS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=101
@@ -177,7 +149,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
-[Document12]
+[Document10]
 DocumentPath=Concentrator1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -191,7 +163,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
-[Document13]
+[Document11]
 DocumentPath=MBUS_Slave.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -205,7 +177,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
-[Document14]
+[Document12]
 DocumentPath=ConcentratorInOne.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +191,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
-[Document15]
+[Document13]
 DocumentPath=SIM800.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -261,7 +233,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=ET0021B704E0E9
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=EDIF
 OutputName1=EDIF for PCB
@@ -321,7 +293,7 @@ OutputDefault9=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=ET0021B704E0E9
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -345,7 +317,7 @@ OutputDefault3=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=ET0021B704E0E9
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Composite
 OutputName1=Composite Drawing
@@ -432,7 +404,7 @@ PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=ET0021B704E0E9
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -451,7 +423,7 @@ OutputDefault2=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=ET0021B704E0E9
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -516,7 +488,7 @@ OutputDefault9=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=ET0021B704E0E9
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=SimpleBOM
 OutputName1=Simple BOM
@@ -564,7 +536,7 @@ OutputDefault5=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=ET0021B704E0E9
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
