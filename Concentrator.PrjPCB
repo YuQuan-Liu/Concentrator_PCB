@@ -191,6 +191,9 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
+[GeneratedDocument1]
+DocumentPath=ProjectOutputs\Design Rule Check - ConcentratorInOne.html
+
 [Generic_SmartPDF]
 AutoOpenFile=-1
 
