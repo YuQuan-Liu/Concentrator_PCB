@@ -108,20 +108,6 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
 [Document7]
-DocumentPath=Concentrator.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-
-[Document8]
 DocumentPath=SIM800.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -135,7 +121,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
-[Document9]
+[Document8]
 DocumentPath=JunPuMBUS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=101
@@ -149,7 +135,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
-[Document10]
+[Document9]
 DocumentPath=Concentrator1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -163,7 +149,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
-[Document11]
+[Document10]
 DocumentPath=MBUS_Slave.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -177,7 +163,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
-[Document12]
+[Document11]
 DocumentPath=ConcentratorInOne.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -191,8 +177,70 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
+[Document12]
+DocumentPath=Concentrator.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+
+[Document13]
+DocumentPath=MBUSSlave.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+
+[Document14]
+DocumentPath=..\..\Program Files (x86)\Altium Designer 6\Library\ST Microelectronics\ST Microcontroller 32-Bit STM32\ST Microcontroller 32-Bit STM32.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+
+[Document15]
+DocumentPath=..\..\Program Files (x86)\Altium Designer 6\Library\ST Microelectronics\ST Microcontroller 32-Bit STM32\ST Microcontroller 32-Bit STM32.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+
 [GeneratedDocument1]
+DocumentPath=ProjectOutputs\Design Rule Check - Concentrator.html
+
+[GeneratedDocument2]
 DocumentPath=ProjectOutputs\Design Rule Check - ConcentratorInOne.html
+
+[GeneratedDocument3]
+DocumentPath=ProjectOutputs\Design Rule Check - MBUSSlave.html
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
